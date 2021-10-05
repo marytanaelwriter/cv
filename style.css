@@ -1,0 +1,253 @@
+/* Color Palette
+Coolors Exported Palette - https://coolors.co/cb997e-ddbea9-ffe8d6-b7b7a4-a5a58d-6b705c
+
+--antique-brass: #cb997eff;
+--desert-sand: #ddbea9ff;
+--champagne-pink: #ffe8d6ff;
+--ash-gray: #b7b7a4ff;
+--artichoke: #a5a58dff;
+--ebony: #6b705cff;
+*/
+
+/* /* CSS HEX */
+/* https://coolors.co/463f3a-8a817c-bcb8b1-f4f3ee-e0afa0
+--dark-lava: #463f3aff;
+--middle-grey: #8a817cff;
+--pale-silver: #bcb8b1ff;
+--alabaster: #f4f3eeff;
+--melon: #e0afa0ff; */
+
+/* Global styles
+---------------------------------*/
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  color: #343434; /* almost black*/
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+img {
+  width: 300px;
+}
+
+a {
+  color: #D79784;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: 800;
+  letter-spacing: 0.3px;
+}
+
+h1 {
+  font-size: 70px;
+  line-height: 1;
+}
+
+h1 + h2:first-of-type {
+  text-align: center;
+}
+
+h1, h2 {
+font-family: 'Kaushan Script', cursive;
+font-weight: 400px;
+letter-spacing: 3.5px;
+margin: 2;
+text-align: center;
+}
+
+h2 {
+  letter-spacing: normal;
+  font-weight: normal;
+  font-size: 45px;
+  text-align: left;
+}
+
+.content-wrap {
+  width: 800px;
+  margin: 0 auto;
+  padding: 60px 0;
+
+}
+h3 {
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.item-details h3 + p {
+  font-style: italic;
+}
+
+.item-details h3 ~ p {
+  margin: 0;
+}
+
+.divider > section {
+    border-bottom: 1px dashed #463f3aff;
+    padding: 25px 0;
+}
+
+.divider > section:last-of-type {
+  border-bottom: none;
+}
+
+/* Profile
+----------------------------------*/
+
+header {
+  /* background: #DA9289 */ /*I like this pink shade */
+  background: #463f3aff;
+  /* background: #cb997eff; */
+  /* #cb997e; */
+  color: #F7FFF7;
+  /* #F4E8E2; */
+ /* #E8D3C5;
+ champagne-pink; family of desert sand*/
+ text-align: center;
+}
+
+/* Skills
+----------------------------------*/
+.skills {
+}
+
+.skill-item {
+  overflow: hidden;
+  border-bottom: 1px dashed #463f3aff;
+  padding: 25px 0;
+}
+
+.skill-item img {
+  float: left;
+  margin-right: 20px;
+}
+
+.skill-item h3 {
+  margin-top: 0;
+}
+
+.collapsible {
+  /* background-color: #e3aea7; */
+  font-family: inherit;
+  /* color: #444; */
+  background-color: #F0D8D1;
+  color: #463F3A;
+  cursor: pointer;
+  padding: 10px;
+  width: 30%;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  outline: none;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.active, .collapsible:hover {
+  /* background-color: #F0D8D1;
+  color: #463F3A; */
+  background-color: #e3aea7;
+  color: #444;
+  font-weight: 550;
+  letter-spacing: 0.3px;
+}
+
+.content {
+  padding: 0 110px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+/* Work experience
+----------------------------------*/
+
+.work-experience {
+  /* background: #f4f4f4; /* light grey */
+  background: #D9D7D3;
+}
+
+.work-experience h2, .education h2 {
+  margin-bottom: 0;
+}
+
+.job-item {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 20px;
+}
+
+/* Education
+----------------------------------*/
+
+.education {
+  background: #e1b1a3;
+}
+
+/* .position {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #AF6B46;
+  letter-spacing: 1px;
+
+} */
+
+/* Contact Info
+----------------------------------*/
+footer {
+  /* background: #ddbea9ff; */
+  /* background: #A5A58D; */
+  /* background: #8A817C; */
+  background: #343434;
+  color: white;
+  text-align: center;
+}
+
+footer a {
+  color: #DA9289;
+}
+
+footer a:hover {
+  color: #e3aea7;
+}
+
+footer h2 {
+  font-family: 'Kaushan Script', cursive;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.contact-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-list a {
+  padding: 15px;
+  display: inline-block;
+}
+
+/* footer a {
+  color: white;
+  background: #e1b1a3;
+  padding: 8px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+footer a:hover {
+  background: rgba(146, 89, 58, 0.8)
+border-radius: 4px;
+} */
