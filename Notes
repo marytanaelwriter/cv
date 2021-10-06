@@ -1,0 +1,60 @@
+/* In-Page Linking
+
+  <a href="#example"> Links to a spot on the page </a>
+  <section id="example"> Link goes here</section>
+
+  #example {...}
+
+ */
+
+/*
+img {
+  width: 300px;
+}
+*/
+
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+coll[i].addEventListener("click", function() {
+this.classList.toggle("active");
+var content = this.nextElementSibling;
+if (content.style.maxHeight){
+  content.style.maxHeight = null;
+} else {
+  content.style.maxHeight = content.scrollHeight + "px";
+}
+});
+}
+</script>
+
+.collapsible {
+  background-color: #e3aea7;
+  font-family: inherit;
+  color: #444;
+  cursor: pointer;
+  padding: 10px;
+  width: 30%;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  outline: none;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.active, .collapsible:hover {
+  background-color: #facec8;
+  font-weight: 800;
+  letter-spacing: 0.3px;
+}
+
+.content {
+  padding: 0 110px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}

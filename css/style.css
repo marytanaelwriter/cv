@@ -74,7 +74,8 @@ h2 {
 }
 
 .content-wrap {
-  width: 800px;
+  max-width: 800px;
+  width: 85%;
   margin: 0 auto;
   padding: 60px 0;
 
@@ -106,8 +107,8 @@ h3 {
 
 header {
   /* background: #DA9289 */ /*I like this pink shade */
-  background: #463f3aff;
-  /* background: #cb997eff; */
+  /* background: #463f3aff; */
+  background: #343434;
   /* #cb997e; */
   color: #F7FFF7;
   /* #F4E8E2; */
@@ -192,6 +193,14 @@ header {
 
 .education {
   background: #e1b1a3;
+  background-image: url(../images/book.png);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  padding-bottom: 100px;
+}
+
+.education p {
+  width: 60%;
 }
 
 /* .position {
